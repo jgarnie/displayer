@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    align-content: center;
+    text-align: center;
+}
+
+.wrapone{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+
+}
+.wrap2{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+.item{
+   
+    font-weight: bold;
+    border-radius: 4px;
+    flex:1;
+    align-self: center;
+    transition: 1s;
+
+}
+.item:hover{
+    background-color: rgb(204, 197, 197);
+}
+
+
+.hide{
+    display: none;
+}
+.active{
+    background-color: grey;
+    font-weight: bold;
+    border-radius: 4px;
+    flex:1;
+    align-self: center;
+}
